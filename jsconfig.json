@@ -1,0 +1,14 @@
+{
+    "exclude": ["localLogs","node_modules","dll","ndp"],
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "es2017",
+        "paths": {
+            "@shared/*": ["./src/shared/*"],
+            "@s-service/*": ["./src/server/service/*"],
+            "@s-utils/*": ["./src/server/utils/*"],
+            "@s-middles/*": ["./src/server/middleware/*"],
+            "@controller/*": ["./src/server/controller/*"]
+        }
+    }
+}

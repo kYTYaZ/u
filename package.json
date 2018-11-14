@@ -1,0 +1,55 @@
+{
+  "name": "u",
+  "version": "1.0.0",
+  "description": "use to test",
+  "author": "mf <mf@alibaba-inc.com>",
+  "private": true,
+  "scripts": {
+    "dev": "uron-fullstack-dev | bunyan -L",
+    "start": "uron-fullstack-start"
+  },
+  "dependencies": {
+    "@uronjs/bunyan-logger": "./deps/@uronjs/bunyan-logger",
+    "@uronjs/fullstack-helper": "./deps/@uronjs/fullstack-helper",
+    "bluebird": "^3.5.0",
+    "bunyan": "^1.8.12",
+    "chalk": "^2.0.1",
+    "config": "^1.29.1",
+    "debug": "^3.1.0",
+    "dotenv": "^6.0.0",
+    "fs-extra": "^4.0.0",
+    "http-proxy": "^1.17.0",
+    "is-type-of": "^1.2.0",
+    "joi": "^13.4.0",
+    "jsonwebtoken": "^8.1.0",
+    "koa": "^2.0.0",
+    "koa-better-body": "^3.0.4",
+    "koa-convert": "^1.2.0",
+    "koa-router": "^7.3.0",
+    "koa-session": "^5.5.1",
+    "koa-validate": "^1.0.7",
+    "lru-cache": "^4.1.2",
+    "module-alias": "^2.0.3",
+    "moment": "^2.18.1",
+    "path-to-regexp": "^2.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "stream-array": "^1.1.2",
+    "uuid": "^3.2.1",
+    "verror": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-vusion": "^2.0.0",
+    "husky": "^0.13.3",
+    "power-assert": "^1.4.4",
+    "prettier-eslint": "^8.8.1"
+  },
+  "_moduleAliases": {
+    "@s-utils": "./src/server/utils",
+    "@s-middles": "./src/server/middleware",
+    "@s-service": "./src/server/service",
+    "@shared": "./src/shared",
+    "@controller": "./src/server/controller"
+  }
+}
